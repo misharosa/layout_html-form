@@ -1,12 +1,22 @@
 .form-field {
   display: block;
-  margin: 10px 0;
+  margin: 10px 0 0;
+  width: 50%;
 }
 
-.set-field {
-  margin: 20px 0;
+.set-field + .set-field {
+  margin-top: 20px;
+}
+
+.set-field label:nth-child(2) {
+  margin-top: 0;
+}
+
+div.form-field {
+  margin-top: 0;
+  width: 50%;
 }
 
 .bottom {
-  margin: 20px 0;
+  margin: 10px;
 }
