@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action=" https://mate-academy-form-lesson.herokuapp.com/create-application"
-          method="post" onsubmit="onSubmit()">
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
+      onsubmit="onSubmit()">
       <fieldset class="set-field">
         <legend>Personal information</legend>
         <label
           for="Surname"
-          class="form-field"
+          class="form-field2"
           tabindex="1">
 
           Surname:
@@ -75,11 +77,10 @@
 
       <fieldset class="set-field">
         <legend>Registration</legend>
-        <label for="E-mail" class="form-field">
+        <label for="E-mail" class="form-field2">
           E-mail:
           <input
             id="E-mail"
-            class="field"
             type="email"
             name="email"
             placeholder="email@example.com"
@@ -102,13 +103,13 @@
 
       <fieldset class="set-field">
         <legend>An interesting fact about you!</legend>
-        <div class="form-field">
+        <div class="form-field1">
           Do you love cats?
 
           <label for="Yes">
             <input
               id="Yes"
-              class="field"
+              class="form-field2"
               type="radio"
               name="cat" value="y">
             Yes
@@ -156,7 +157,6 @@
             <option value="">BMV</option>
             <option value="">Audi</option>
             <option value="">Lada</option>
-            <option value="">   </option>
           </select>
         </label>
 
@@ -174,13 +174,13 @@
       <fieldset class="set-field">
         <legend>Additional info:</legend>
 
-        <label for="Comments" class="form-field">
+        <label for="Comments" class="form-field2">
           Comments:
           <textarea
-              name="feedback"
-              id="Comments"
-              cols="15"
-              rows="2">
+            name="feedback"
+            id="Comments"
+            cols="15"
+            rows="2">
           </textarea>
         </label>
 

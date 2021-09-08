@@ -1,20 +1,18 @@
 .form-field {
   display: block;
   margin: 10px 0 0;
-  width: 50%;
 }
 
 .set-field + .set-field {
   margin-top: 20px;
 }
 
-.set-field label:nth-child(2) {
+.form-field1 {
   margin-top: 0;
 }
 
-div.form-field {
+.form-field2 {
   margin-top: 0;
-  width: 50%;
 }
 
 .bottom {
