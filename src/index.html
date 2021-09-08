@@ -14,13 +14,15 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
-      onsubmit="onSubmit()">
+      onsubmit="onSubmit()"
+    >
       <fieldset class="set-field">
         <legend>Personal information</legend>
         <label
           for="Surname"
           class="form-field2"
-          tabindex="1">
+          tabindex="1"
+        >
 
           Surname:
           <input
@@ -28,7 +30,8 @@
             class="field"
             type="text"
             name="Surname"
-            required>
+            required
+          >
         </label>
 
         <label for="name" class="form-field">
@@ -38,7 +41,8 @@
             class="field"
             type="text"
             name="name"
-            required>
+            required
+          >
         </label>
 
         <label for="Haw-old" class="form-field">
@@ -50,7 +54,8 @@
             name="how old"
             value="12"
             max="100"
-            min="0">
+            min="0"
+          >
         </label>
 
         <label for="Full date" class="form-field">
@@ -60,7 +65,8 @@
             class="field"
             type="date"
             name="birthday"
-            placeholder="mm/dd/yyyy">
+            placeholder="mm/dd/yyyy"
+          >
         </label>
 
         <label for="accept the term" class="form-field">
@@ -71,7 +77,8 @@
             class="field"
             type="checkbox"
             name="term"
-            required>
+            required
+          >
         </label>
       </fieldset>
 
@@ -84,7 +91,8 @@
             type="email"
             name="email"
             placeholder="email@example.com"
-            required>
+            required
+          >
         </label>
 
         <label for="Password" class="form-field">
@@ -97,7 +105,8 @@
             name="password"
             required
             minlength="8"
-            maxlength="32">
+            maxlength="32"
+          >
         </label>
       </fieldset>
 
@@ -111,7 +120,8 @@
               id="Yes"
               class="form-field2"
               type="radio"
-              name="cat" value="y">
+              name="cat" value="y"
+            >
             Yes
           </label>
 
@@ -121,7 +131,8 @@
               class="field"
               type="radio"
               name="cat"
-              value="n">
+              value="n"
+            >
             No
           </label>
         </div>
@@ -133,7 +144,8 @@
             id="favorite color"
             type="color"
             name="head"
-            value="#000">
+            value="#000"
+          >
         </label>
 
         <label for="time do you go to bed" class="form-field">
@@ -143,7 +155,8 @@
             class="field"
             type="time"
             name="time"
-            placeholder="--: --: --: --">
+            placeholder="--: --: --: --"
+          >
         </label>
 
         <label for="brand of cars" class="form-field">
@@ -153,7 +166,8 @@
             name="cars"
             id="brand of cars"
             required
-            multiple>
+            multiple
+          >
             <option value="">BMV</option>
             <option value="">Audi</option>
             <option value="">Lada</option>
@@ -167,7 +181,8 @@
             type="range"
             id="rate out work"
             min="0"
-            max="10">
+            max="10"
+          >
         </label>
       </fieldset>
 
@@ -180,7 +195,8 @@
             name="feedback"
             id="Comments"
             cols="15"
-            rows="2">
+            rows="2"
+          >
           </textarea>
         </label>
 
